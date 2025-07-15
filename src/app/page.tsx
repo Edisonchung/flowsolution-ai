@@ -96,8 +96,61 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Technology Section */}
+      <section id="technology" className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            Our Technology Stack
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="p-6">
+              <h3 className="font-bold text-lg mb-2">AI & Machine Learning</h3>
+              <p className="text-gray-600 text-sm">Advanced NLP, Computer Vision, Predictive Analytics</p>
+            </div>
+            <div className="p-6">
+              <h3 className="font-bold text-lg mb-2">Cloud Platform</h3>
+              <p className="text-gray-600 text-sm">AWS/Azure deployment, Edge Computing</p>
+            </div>
+            <div className="p-6">
+              <h3 className="font-bold text-lg mb-2">API Architecture</h3>
+              <p className="text-gray-600 text-sm">Seamless integrations, Real-time Analytics</p>
+            </div>
+            <div className="p-6">
+              <h3 className="font-bold text-lg mb-2">Security</h3>
+              <p className="text-gray-600 text-sm">Enterprise-grade security, Compliance ready</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Case Studies Section */}
+      <section id="case-studies" className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            Success Stories
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <h3 className="font-bold text-lg mb-2">Smart Factory Implementation</h3>
+              <p className="text-gray-600 text-sm mb-4">Regional Electronics Manufacturer</p>
+              <div className="text-green-600 font-semibold">95% defect detection, 30% cost reduction</div>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <h3 className="font-bold text-lg mb-2">Predictive Maintenance</h3>
+              <p className="text-gray-600 text-sm mb-4">Oil & Gas Equipment Supplier</p>
+              <div className="text-green-600 font-semibold">85% downtime reduction, RM 500K savings</div>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <h3 className="font-bold text-lg mb-2">Procurement Optimization</h3>
+              <p className="text-gray-600 text-sm mb-4">Automotive Parts Manufacturer</p>
+              <div className="text-green-600 font-semibold">50% faster sourcing, 20% cost savings</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Company Info */}
-      <section id="about" className="py-20 bg-gray-50">
+      <section id="about" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">
             Flow Solution Engineering Sdn. Bhd.
