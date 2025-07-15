@@ -1,5 +1,3 @@
-import Link from 'next/link'
-
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
@@ -21,19 +19,19 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Solutions</h4>
             <ul className="space-y-2 text-gray-300">
-              <li><Link href="/solutions/procurement" className="hover:text-white transition-colors">Procurement Intelligence</Link></li>
-              <li><Link href="/solutions/maintenance" className="hover:text-white transition-colors">Predictive Maintenance</Link></li>
-              <li><Link href="/solutions/process" className="hover:text-white transition-colors">Process Intelligence</Link></li>
-              <li><Link href="/technology" className="hover:text-white transition-colors">Technology Stack</Link></li>
+              <li><a href="#solutions" className="hover:text-white transition-colors">Procurement Intelligence</a></li>
+              <li><a href="#solutions" className="hover:text-white transition-colors">Predictive Maintenance</a></li>
+              <li><a href="#solutions" className="hover:text-white transition-colors">Process Intelligence</a></li>
+              <li><a href="#technology" className="hover:text-white transition-colors">Technology Stack</a></li>
             </ul>
           </div>
           
           <div>
             <h4 className="text-lg font-semibold mb-4">Company</h4>
             <ul className="space-y-2 text-gray-300">
-              <li><Link href="/about" className="hover:text-white transition-colors">About Us</Link></li>
-              <li><Link href="/case-studies" className="hover:text-white transition-colors">Case Studies</Link></li>
-              <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
+              <li><a href="#about" className="hover:text-white transition-colors">About Us</a></li>
+              <li><a href="#case-studies" className="hover:text-white transition-colors">Case Studies</a></li>
+              <li><a href="#contact" className="hover:text-white transition-colors">Contact</a></li>
             </ul>
           </div>
         </div>
