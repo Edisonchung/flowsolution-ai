@@ -1,5 +1,3 @@
-import Link from 'next/link'
-
 export default function Home() {
   return (
     <div className="min-h-screen">
@@ -181,11 +179,34 @@ export default function Home() {
           <p className="text-xl text-blue-100 mb-8">
             Join the AI revolution in Malaysian manufacturing. Get a personalized demo today.
           </p>
+          
+          {/* Contact Information */}
+          <div className="bg-white/10 rounded-lg p-8 mb-8 text-white">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <h3 className="font-semibold mb-2">Email</h3>
+                <p>info@flowsolution.com.my</p>
+              </div>
+              <div>
+                <h3 className="font-semibold mb-2">Phone</h3>
+                <p>+60 12-509 2363</p>
+              </div>
+              <div>
+                <h3 className="font-semibold mb-2">Address</h3>
+                <p>PT 7257, 1st Floor, Jalan BBN 1/2A<br/>Bandar Baru Nilai, 71800 Nilai<br/>Negeri Sembilan, Malaysia</p>
+              </div>
+              <div>
+                <h3 className="font-semibold mb-2">Business Hours</h3>
+                <p>Monday - Friday: 9:00 AM - 6:00 PM<br/>Saturday: 9:00 AM - 1:00 PM</p>
+              </div>
+            </div>
+          </div>
+          
           <a 
-            href="#contact"
+            href="mailto:info@flowsolution.com.my?subject=Demo Request&body=Hello, I would like to request a demo of your AI solutions."
             className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-block"
           >
-            Request Demo
+            Send Email for Demo
           </a>
         </div>
       </section>
