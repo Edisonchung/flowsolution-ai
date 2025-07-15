@@ -1,5 +1,3 @@
-import Link from 'next/link'
-
 export default function Hero() {
   return (
     <div className="relative isolate px-6 pt-14 lg:px-8 min-h-screen flex items-center">
@@ -27,15 +25,15 @@ export default function Hero() {
             HiggsFlow platform delivers 95% accuracy in procurement intelligence with 40% cost reduction.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
-            <Link
-              href="/contact"
+            <a
+              href="#contact"
               className="btn-primary"
             >
               Request Demo
-            </Link>
-            <Link href="/solutions" className="text-sm font-semibold leading-6 text-gray-900 hover:text-blue-600 transition-colors">
+            </a>
+            <a href="#solutions" className="text-sm font-semibold leading-6 text-gray-900 hover:text-blue-600 transition-colors">
               View Solutions <span aria-hidden="true">→</span>
-            </Link>
+            </a>
           </div>
           
           {/* Key Metrics */}
