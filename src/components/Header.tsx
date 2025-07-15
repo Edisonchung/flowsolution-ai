@@ -8,11 +8,11 @@ export default function Header() {
 
   const navigation = [
     { name: 'Home', href: '/' },
-    { name: 'Solutions', href: '/solutions' },
-    { name: 'Technology', href: '/technology' },
-    { name: 'Case Studies', href: '/case-studies' },
-    { name: 'About', href: '/about' },
-    { name: 'Contact', href: '/contact' },
+    { name: 'Solutions', href: '#solutions' },
+    { name: 'Technology', href: '#technology' },
+    { name: 'Case Studies', href: '#case-studies' },
+    { name: 'About', href: '#about' },
+    { name: 'Contact', href: '#contact' },
   ]
 
   return (
